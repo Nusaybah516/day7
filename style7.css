@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(19, 10, 31);
+    background-color: navajowhite;
+}
+
+h1 {
+	font-family:'PT Sans', sans-serif ;
+	font-size: 3em;
+	border-bottom: 2px  transparent;
+	border-right: 2px transparent;
+	width: 400px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.donut-section{
+    width: 100vw;
+}
+.image-container{
+    width: 100%;
+    
+}
+.row-one, .row-two, .row-three{
+   
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+}
+.grid-item{
+    height: 500px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all;
+
+}
+.grid-item:hover {
+    transform: scale(1.1);
+   
+}
+#donut-one{
+    background-image: url("image1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#donut-two{
+    background-image: url("image3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#donut-three{
+    background-image: url("image2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#donut-four{
+    background-image: url("image5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#donut-five{
+    background-image: url("image6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#donut-six{
+    background-image: url("image4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@media only screen and (max-width:840px){
+    .grid-item{
+        grid-column: 1/4;
+
+    }
+    
+}
+
+@media only screen and (max-width:420px){
+    h1{
+        width: 300px;
+        font-size: 2.5em;
+    }
+
+}
+@media only screen and (max-width:320px){
+    h1{
+        width: 250px;
+        font-size: 2.0em;
+    }
+
+}
+@media only screen and (max-width:270px){
+    h1{
+        width: 200px;
+        font-size: 1.5em;
+    }
+
+}
+@media only screen and (max-width:220px){
+    h1{
+        width: 150px;
+        font-size: 1.3em;
+    }
+
+}
+@media only screen and (max-width:170px){
+    h1{
+        width: 100px;
+    }
+}
